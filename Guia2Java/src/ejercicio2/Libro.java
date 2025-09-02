@@ -39,6 +39,27 @@ public class Libro {
         this.autor = autor;
     }
 
-    public Libro() {
+
+    public Libro(String titulo, Double precio, int stock, Autor autor) {
+        this.titulo = titulo;
+        this.precio = precio;
+        this.stock = stock;
+        this.autor = autor;
+    }
+
+    @Override
+    public String toString() {
+        return "Libro{" +
+                "titulo='" + titulo + '\'' +
+                ", precio=" + precio +
+                ", stock=" + stock +
+                ", autor=" + autor +
+                '}';
+    }
+
+    public String toStringCustom() {
+        return "El libro " +
+                 titulo + " de " +
+                    autor + " se vende a " + precio;
     }
 }

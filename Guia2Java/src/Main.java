@@ -1,4 +1,6 @@
 import ejercicio2.Autor;
+import ejercicio2.Libro;
+import ejercicio3.Cliente;
 
 import java.util.ArrayList;
 
@@ -70,10 +72,18 @@ public class Main {
         } while(opcion != 0);*/
 
         // Ejercicio2
-        Autor autor = new Autor("Joshua","bloch","joshua@emial.com","M");
-
+        /**Autor autor = new Autor("Joshua","bloch","joshua@emial.com","M");
         System.out.println(autor);
+        Libro libro = new Libro("Effective Java", 450.0, 150, autor);
+        System.out.println(libro);
+        libro.setPrecio(500.0);
+        libro.setStock(50);
+        System.out.println(libro.toString());
+        System.out.println(libro.getAutor());
+        System.out.println(libro.toStringCustom());*/
 
-
+        // Ejercicio3
+        Cliente cliente = new Cliente();
+        System.out.println(cliente);
     }
 }
