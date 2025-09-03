@@ -94,7 +94,8 @@ public class Main {
         System.out.println(factura);*/
 
         // Ejercicio4
-        Cilindro cilindro = new Cilindro(1.2, 3.0,"negro");
+        Cilindro cilindro = new Cilindro();
         System.out.println(cilindro);
+        Cilindro cilindro1 = new Cilindro(1.2,2.0);
     }
 }

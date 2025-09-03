@@ -8,6 +8,9 @@ public abstract class Circulo {
     public Circulo() {
     }
 
+    public Circulo(double radio) {
+    }
+
     public Circulo(double radio, String color) {
         this.radio = radio;
         this.color = color;
