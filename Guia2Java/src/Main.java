@@ -1,6 +1,9 @@
 import ejercicio2.Autor;
 import ejercicio2.Libro;
 import ejercicio3.Cliente;
+import ejercicio3.Factura;
+import ejercicio4.Cilindro;
+import ejercicio4.Circulo;
 
 import java.util.ArrayList;
 
@@ -83,7 +86,15 @@ public class Main {
         System.out.println(libro.toStringCustom());*/
 
         // Ejercicio3
-        Cliente cliente = new Cliente();
+        /**Cliente cliente = new Cliente("lautaro","lauta@gmail.com", 1000.0);
         System.out.println(cliente);
+        Factura factura = new Factura(cliente,10000.0);
+        System.out.println(factura);
+        factura.calcularMontoFinalConDescuento(cliente.getDescuento());
+        System.out.println(factura);*/
+
+        // Ejercicio4
+        Cilindro cilindro = new Cilindro(1.2, 3.0,"negro");
+        System.out.println(cilindro);
     }
 }
